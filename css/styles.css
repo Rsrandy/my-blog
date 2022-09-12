@@ -1,0 +1,143 @@
+h1
+ {  font-family: "Montserrat-black"; 
+     font-size: 6rem; 
+     line-height: 1.5; 
+     padding: 20px;
+     color: #ffff;
+     font-weight: bold;
+    }
+    h2{
+      font-family: "Montserrat-bold"; 
+      font-weight: bold; 
+      text-align:  center;
+      
+      
+    }
+    em{
+      font-family: "ubuntu-bold";
+      font-weight: bold;
+    }
+    h3{
+      font-family: "Montserrat-bold"; 
+      font-weight: bold;
+       
+     
+    }
+    p{
+      color: gray;
+      padding: 0 10px;
+      text-align: center;
+    }
+    
+ #title{
+    background-color: #ff4c68;
+    padding: 3% 15%;
+    
+    
+ }
+ .container-fluid{
+   
+    text-align-last: center;
+ }
+ 
+ .navbar-brand{
+    font-family: "Montserrat-bold";
+    padding: 0 0 15px 5px 0;
+ }
+ .nav-items{
+    font-family: "ubuntu-light";
+    color: grey;
+ }
+ .title-image{
+   margin-top: 40px;
+   margin-left: 300px;
+   
+   position: absolute;
+   z-index: 1;
+   width: 60%;
+    
+    
+    transform: rotate(35deg);
+ }
+ .button-title{
+   margin: 20px;
+ }
+
+ /*--feature-box---*/
+
+ #features{
+   padding: 7% 15%;
+   position: relative;
+   z-index: 1;
+   background-color: #ffff;
+   
+   
+ }
+ .feature-box {
+   text-align: center;
+ }
+ .icon{
+   color: #ff4187dd;
+ }
+ .icon:hover{
+   color: #ff4c68;
+ }
+
+
+/*--testimonials---*/
+
+#carouselExampleControls{
+   padding: 5% 15%;
+}
+
+#testimonials{
+   
+background-color: chocolate;
+text-align: center;
+}
+.testimonial-image{
+   width: 15%;
+   border-radius: 200%;
+   padding: 20px;
+}
+#press{
+   padding: 3% 15%;
+   text-align: center;
+   background-color: chocolate;
+}
+.press-image{
+   width:15%;
+}
+
+/*--pricing--*/
+#pricing{
+   padding: 3% 15%;
+   text-align: center;
+}
+.pricing{
+   text-align: left;
+}
+.card-head{
+padding: 5px;
+}
+.car-body{
+   padding: 5px;
+}
+
+/*--cta--*/
+
+#cta{
+   padding: 7% 15%;
+   text-align: center;
+   background-color: #ff4c68;
+}
+
+/*--cta--*/
+#footer{
+padding: 5% 15%;
+align-items: center;
+}
+.icon-footer{
+   padding: 15px;
+   color: #ff4c68;
+}
