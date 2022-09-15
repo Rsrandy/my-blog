@@ -26,7 +26,8 @@
         header("location:index.php");
     }
 
- 
+  ?>
+<?php 
                             $Msg = "";
                             if(isset($_GET['error']))
                             {
