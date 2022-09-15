@@ -1,0 +1,32 @@
+
+<html>
+<body>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <form action="/form.php" method="post" id="contact-form">
+    <h2>Contact us</h2>
+    <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+    <p>
+      <label>First Name:</label>
+      <input name="name" type="text"/>
+    </p>
+    <p>
+      <label>Email Address:</label>
+      <input style="cursor: pointer;" name="email" type="text"/>
+    </p>
+    <p>
+      <label>Message:</label>
+      <textarea name="message"></textarea>
+    </p>
+    <p>
+      <button
+        class="g-recaptcha"
+        type="submit"
+        data-sitekey="your site key"
+        data-callback='onRecaptchaSuccess'
+      >
+        Submit
+      </button>
+    </p>
+  </form>
+  </body>
+</html>
